@@ -6,3 +6,4 @@ ls -la - used to list all files in working directory even hidden ones
 ls -lna - used to list files in long format, (n)with user and group IDs displayed numerically and (a)hidden files
 mkdir /tmp/my_first_directory - used to make a directory inside another directory
 mv /tmp/betty /tmp/my_first_directory - used to move a file to a directory inside another directory
+rm /tmp/my_first_directory/betty - used to delete the file betty which is in the directory /tmp/my_first_directory
