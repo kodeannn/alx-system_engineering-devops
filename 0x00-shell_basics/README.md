@@ -8,4 +8,4 @@ mkdir /tmp/my_first_directory - used to make a directory inside another director
 mv /tmp/betty /tmp/my_first_directory - used to move a file to a directory inside another directory
 rm /tmp/my_first_directory/betty - used to delete the file betty which is in the directory /tmp/my_first_directory
 rmdir /tmp/my_first_directory - used to delete a directory thats inside another directory
-cd .. - changes the working directory to the previous one
+cd - - changes the working directory to the previous one
