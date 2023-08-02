@@ -17,5 +17,5 @@ mv [A-Z]* /tmp/u/ - used to move all files beginning with an uppercase ([a-z]) t
 rm *~ - used to delete all files in current working directory that end with the character ~
 mkdir -p welcome/to/school - used to create the directories welcome, to , and school
 ls -amvp - exlain later
-0 string SCHOOL school data
-!:mime school - explain later
+0 string SCHOOL School data
+!:mime School - explain later
