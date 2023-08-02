@@ -15,4 +15,4 @@ ln -s /bin/ls __ls__ - used to create a symbolic link in the current working dir
 cp -u *.html .. - used to copy files which are new or do not exist in the destination directory (u) and the files should be ending with .html and they should be in the parent directory rep by (..)
 mv [A-Z]* /tmp/u/ - used to move all files beginning with an uppercase ([a-z]) to the directory /tmp/u
 rm *~ - used to delete all files in current working directory that end with the character ~
-mkdir welcome to school - used to create the directories welcome, to , and school
+mkdir -p welcome/to/school - used to create the directories welcome, to , and school
