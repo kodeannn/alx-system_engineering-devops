@@ -16,3 +16,4 @@ cp -u *.html .. - used to copy files which are new or do not exist in the destin
 mv [A-Z]* /tmp/u/ - used to move all files beginning with an uppercase ([a-z]) to the directory /tmp/u
 rm *~ - used to delete all files in current working directory that end with the character ~
 mkdir -p welcome/to/school - used to create the directories welcome, to , and school
+ls -A1p | LC_ALL=C sort -df | tr '\n' ','; echo - explain later
