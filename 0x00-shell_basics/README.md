@@ -12,3 +12,4 @@ cd - - changes the working directory to the previous one
 ls -la . .. /boot - used to list files in long format, hidden files in the current directory which is represented with a . and the parent directory represented with a .. and the /boot directory
 file /tmp/iamafile - used to show what type of file iamafile is which is in directory /tmp
 ln -s /bin/ls __ls__ - used to create a symbolic link in the current working directory, which will point to the /bin/ls executable
+cp -u *.html .. - used to copy files which are new or do not exist in the destination directory (u) and the files should be ending with .html and they should be in the parent directory rep by (..)
