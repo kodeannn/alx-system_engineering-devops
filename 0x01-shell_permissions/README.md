@@ -8,3 +8,4 @@ chmod ug+x,o+r hello - command that adds execute permissions to owner of file an
 chmod ugo+x hello - command that adds execution permissions yo all users
 chmod o+rwx hello - command that gives other users all the permissions
 chmod 007 hello - command that gives only the other users permissions
+chmod u=rwx,g=rx,o=wx hello - u=rwx: This sets the permissions for the owner (u) to read, write, and execute (rwx).g=rx: This sets the permissions for the group (g) to read and execute (rx).o=wx: This sets the permissions for other users (o) to write and execute (wx).
