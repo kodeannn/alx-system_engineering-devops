@@ -10,3 +10,4 @@ chmod o+rwx hello - command that gives other users all the permissions
 chmod 007 hello - command that gives only the other users permissions
 chmod u=rwx,g=rx,o=wx hello - u=rwx: This sets the permissions for the owner (u) to read, write, and execute (rwx).g=rx: This sets the permissions for the group (g) to read and execute (rx).o=wx: This sets the permissions for other users (o) to write and execute (wx).
 chmod 753 hello - (task 9)
+chmod --reference=olleh hello - (task 10)
