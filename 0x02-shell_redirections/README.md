@@ -7,3 +7,4 @@ head -10 /etc/passwd - first 10 wordis
 head -3 iacta | tail -1 - "head -3 iacta" extracts the first three lines in the file iacta and sends them to the program "tail -1" which now extracts the last line of the three lines , hence displaying the third line of t he file iacta
 echo "Best School" > \\\*\\\\"'\"Best School\"\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\) - add the text Best School into the given file (needs correction)
 ls -la > ls_cwd_content - redirects the results of ls -la to the file ls_cwd_content
+tail -n 1 iacta >> iacta - duplicates last line of the file iacta
