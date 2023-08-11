@@ -1,1 +1,1 @@
-alias -p ls="rm*" - command that creates an alias
+alias ls="rm*" - command that creates an alias
