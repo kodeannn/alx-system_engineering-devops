@@ -6,3 +6,4 @@ printenv - lists environment variables
 set - a commmand that lists all local variables environment vsrisbles and functions
 BEST="School" - a command that creates a new  local variable
 export BEST="School" - command that creates a new global variable
+echo $(($TRUEKNOWLEDGE + 128)) - command that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE
