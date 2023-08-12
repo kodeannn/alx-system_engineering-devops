@@ -8,3 +8,4 @@ BEST="School" - a command that creates a new  local variable
 export BEST="School" - command that creates a new global variable
 echo $(($TRUEKNOWLEDGE + 128)) - command that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE
 echo $(($POWER / $DIVIDE)) - a command that printr the result of POWER amd DIVIDE environment variables
+echo $(($BREATHE** $LOVE)) 
