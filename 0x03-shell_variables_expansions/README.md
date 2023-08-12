@@ -5,3 +5,4 @@ echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1)) - commnad that counts the numbe
 printenv - lists environment variables
 set - a commmand that lists all local variables environment vsrisbles and functions
 BEST="School" - a command that creates a new  local variable
+export BEST="School" - command that creates a new global variable
