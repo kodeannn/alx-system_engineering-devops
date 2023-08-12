@@ -4,3 +4,4 @@ export PATH=$PATH:/action - makes /action the last directory shell looks into wh
 echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1)) - commnad that counts the number of directories in the PATH
 printenv - lists environment variables
 set - a commmand that lists all local variables environment vsrisbles and functions
+BEST="School" - a command that creates a new  local variable
